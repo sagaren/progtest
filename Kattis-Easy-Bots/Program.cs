@@ -8,6 +8,7 @@ namespace Kattis_Easy_Bots
     {
         public static void Main(string[] args)
         {
+            //Ta in en sträng med ord och kolla om nåt ord repeteras. Om det repeteras så returnera "no" och annars "yes"
             string inputLine = Console.ReadLine().ToLower(); 
             if (inputLine.Length < 80) 
             {
